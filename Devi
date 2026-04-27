@@ -1,0 +1,47 @@
+Project 1- OpsMind AI/
+  client/
+    src/
+      components/
+        Chat.jsx
+        Upload.jsx
+        Message.jsx
+      hooks/
+        useSSE.js
+      styles/
+        app.css
+        chat.css
+        upload.css
+      App.jsx
+      main.jsx
+    index.html
+    package.json
+    vite.config.js
+
+  server/
+    controllers/
+      chatController.js
+      uploadController.js
+    middleware/
+      errorHandler.js
+    models/
+      SOPChunk.js
+    routes/
+      chatRoutes.js
+      uploadRoutes.js
+    services/
+      chunkService.js
+      embeddingService.js
+      llmService.js
+      pdfService.js
+      ragService.js
+      searchService.js
+    utils/
+      cosineSimilarity.js
+      logger.js
+    Dockerfile
+    package.json
+    server.js
+
+  .env
+  .env.example.
+  docker-compose.yml
